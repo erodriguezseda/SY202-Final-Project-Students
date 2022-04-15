@@ -3,6 +3,7 @@
 *************************************************************/
 
 #include "mbed.h"
+#include "platform/mbed_thread.h"
 
 #define SERVO_CAN_ID 	 1   //[DO NOT MODIFY]Address of mbed/servo CAN device
 #define SENSOR_CAN_ID    2   //[DO NOT MODIFY]Address of mbed/sensor CAN device
