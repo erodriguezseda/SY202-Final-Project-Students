@@ -43,7 +43,7 @@ int main() {
     float integralError = 0;	//[DO NOT MODIFY]This is the integral of the error for the PI control
 	float Ts = 0.05;        	//[DO NOT MODIFY]This is the approximated period of the control cycle in seconds
 	
-	while(1){   			//[DO NOT MODIFY]This your cyclic control loop (the one to be executed indefinitely)
+	while(1){   			    //[DO NOT MODIFY]This your cyclic control loop (the one to be executed indefinitely)
         if(can.read(msg_read)) { 		//[DO NOT MODIFY]if message is available, read into msg_read
 			if(msg_read.id == XXXX){	//[MODIFY]With if statement or something else, check if the id of msg_read is the one of your sensor
                 //[INSERT]print to Tera Term the current time and the sensor's message. Note that the message is a string %s
